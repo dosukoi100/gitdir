@@ -11,4 +11,4 @@ for i in lists:
     print(i)
     time.sleep(0.4)
 
-#コメントアウトです
+#ここからStreamlitのコードを書いて行きます
