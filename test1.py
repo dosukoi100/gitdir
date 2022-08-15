@@ -9,6 +9,10 @@ lists = [1,2,3,4,5]
 
 for i in lists:
     print(i)
-    time.sleep(0.00001)
+    time.sleep(0.4)
 
-#コメントアウトです
+#ここからStreamlitのコードを書いて行きます
+
+import streamlit as st
+
+st.title('タイトルです')
