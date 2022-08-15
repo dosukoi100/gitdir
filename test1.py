@@ -16,3 +16,7 @@ for i in lists:
 import streamlit as st
 
 st.title('タイトルです')
+
+text1 = st.text_input('ここに好きな言葉を入れてください')
+st.write('あなたの好きな言葉は{}ですね?'.format(text1))
+
