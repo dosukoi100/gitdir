@@ -12,3 +12,7 @@ for i in lists:
     time.sleep(0.4)
 
 #ここからStreamlitのコードを書いて行きます
+
+import streamlit as st
+
+st.title('タイトルです')
